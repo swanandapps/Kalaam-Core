@@ -1,35 +1,25 @@
 {
-  "name": "kalaam-compiler",
-  "description": "Compiler",
-  "main": "lib/compiler/main.js",
+  "name": "kalaam-core",
+  "version": "1.0.0",
+  "description": "Kalaam.io",
+  "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack --mode production"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/swanandapps/Kalaam-Compiler.git"
   },
   "keywords": [
-    "kalaam"
+    "Kalaam"
   ],
   "author": "Swanand Kadam",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/swanandapps/Kalaam-Compiler/issues"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
-  "homepage": "https://github.com/swanandapps/Kalaam-Compiler#readme",
-  "dependencies": {
-    "babel-loader": "^8.1.0",
-    "webpack": "^4.44.1"
-  },
-  "devDependencies": {
-    "@babel/core": "^7.11.1",
-    "@babel/preset-env": "^7.11.0",
-    "webpack-cli": "^3.3.12"
-  }
+  "homepage": "https://github.com/swanandapps/Kalaam-Compiler#readme"
 }
