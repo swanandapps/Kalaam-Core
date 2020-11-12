@@ -1,7 +1,6 @@
 {
   "name": "kalaam-compiler",
-  "version": "1.0.0",
-  "description": "Compiler ",
+  "description": "Compiler",
   "main": "lib/compiler/main.js",
   "directories": {
     "lib": "lib"
@@ -22,6 +21,7 @@
   "bugs": {
     "url": "https://github.com/swanandapps/Kalaam-Compiler/issues"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "homepage": "https://github.com/swanandapps/Kalaam-Compiler#readme",
   "dependencies": {
     "babel-loader": "^8.1.0",
